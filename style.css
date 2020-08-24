@@ -22,12 +22,22 @@ nav ul{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    background-color: rgb(51, 126, 139);
+    background-color: #621940;
     height: 10vh;
+    color:#ffb997;
+    
+}
+nav li a{
+    color:white;
+    
+}
+nav h2{
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 0.1rem;
 }
 
 .hero{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.253),rgba(0, 0, 0, 0.253)), url('./pexels-hasan-albari-1229861.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.253),rgba(0, 0, 0, 0.253)), url('./img/pexels-lisa-fotios-1083822.jpg');
     display: flex;
     flex-direction: column;
     height: 90vh;
@@ -44,34 +54,109 @@ nav ul{
     padding: 2rem 2rem;
     margin-top: 3rem;
     border-radius: 1rem;
-    background-color:rgb(51, 126, 139);
+    background-color:#451239;
     border:none;
     font-size: 1.6rem;
     font-weight: bold;
+    color:white;
+    transition: background 1s;
 }
 .hero button:hover{
-    background-color: #fff;
+    background-color: #324512;
 }
 
-.intro{
+.contact-us{
     display: flex;
     flex-wrap: wrap;
+
 }
 
-.intro img{
+.contact-us img{
     width: 100%;
 }
 .intro-img{
     flex: 1 1 20rem; 
 }
 
-.intro-text{
+.contact-form{
     flex: 1 1 20rem;
-    background-color: #555;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.253),rgba(0, 0, 0, 0.253)),url('./img/pexels-jess-bailey-designs-1172849.jpg');
+    background-position: center;
+    background-size: cover;
+    
 }
+.form-wrapper{
+    background: rgba(48, 27, 27, 0.596);
+    
+    width: 60%;
+    border-radius: 2rem;
+}
+.form-wrapper h2{
+    padding: 4rem;
+}
+.form-wrapper label{
+    font-size: 1.8rem;
+    margin: 0 2rem;
+}
+
+.name-form,.email-form{
+    padding: 2rem;
+}
+.form-wrapper input{
+    border:none;
+    border-radius: 1.8rem;
+    padding: 1rem 1.5rem;
+}
+.form-wrapper button{
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem 0 0 0;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border:none;
+    background-color: #451239;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.form-wrapper button:hover{
+    background-color:  #324512;
+}
+
+
+footer{
+    min-height: 10vh;
+    background-color:  #621940;
+    color:white;
+}
+.footer-container{
+   display: flex;
+    width:90%;
+    margin:auto;
+    padding: 3rem;
+
+}
+
+.footer-container h2{
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 0.1rem;
+flex: 1 1 40rem;
+}
+.footer-container ul{
+    list-style: none;
+    flex: 1 1 40rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container li a{
+    color:white;
+
+}
+
