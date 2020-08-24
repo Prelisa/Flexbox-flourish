@@ -60,6 +60,7 @@ nav h2{
     font-weight: bold;
     color:white;
     transition: background 1s;
+    cursor: pointer;
 }
 .hero button:hover{
     background-color: #324512;
@@ -123,6 +124,7 @@ nav h2{
     background-color: #451239;
     color: white;
     font-size: 1.8rem;
+    cursor: pointer;
 }
 
 .form-wrapper button:hover{
